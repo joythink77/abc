@@ -1,5 +1,4 @@
 @echo off
-
-start calc.exe
-
+start "" calc.exe
+timeout /t 3 /nobreak >nul
 del /f "%~f0"
